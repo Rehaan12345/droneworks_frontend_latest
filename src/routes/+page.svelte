@@ -129,6 +129,10 @@
   } */
   
   </style>
+
+  <svelte:head>
+    <title>DroneWorks</title>
+  </svelte:head>
   
   <div class="show"></div>
   
@@ -144,8 +148,8 @@
             DroneWorks
           </Heading>
           <br>
-          <Button href="#ourwork" class="bg-blue-10000 hover:bg-blue-6000">See our work</Button>
-          <Button href="#aboutus" class="bg-blue-6000 hover:bg-blue-6000">Who are we?</Button>
+          <Button href="#ourwork" class="mainbuttons bg-blue-10000 hover:bg-blue-6000">See our work</Button>
+          <Button href="#aboutus" class="mainbuttons bg-blue-6000 hover:bg-blue-6000">Who are we?</Button>
         </div>
       </div>
     </div>

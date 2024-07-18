@@ -132,6 +132,10 @@
     }
 </style>
 
+<svelte:head>
+    <title>DroneWorks | {advertId}</title>
+</svelte:head>
+
 <div class="moreinfowrapper bg-gray-200">
 
     <Button class="bg-gray-200 hover:bg-gray-300"><a class="backtohome" href="/">Back to home</a></Button>
