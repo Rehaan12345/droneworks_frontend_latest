@@ -24,6 +24,7 @@
     async function testAPI() {
         try {
             const url = currUrl + "data/";
+            console.log(url);
             const res = await fetch(url);
             if (!res.ok) {
                 throw new Error("API fetching didn't work");
