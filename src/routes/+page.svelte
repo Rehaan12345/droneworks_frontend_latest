@@ -58,7 +58,7 @@
         }
     }
   
-    let images = [];
+    let images = []; 
   
     async function getImages() {
       try {
