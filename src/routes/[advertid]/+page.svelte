@@ -34,6 +34,7 @@
 
     async function getData(id) {
         try {
+            console.log(id);
             let coll = "advert_info";
             coll = currColl + coll;
             const url = currUrl + "read/" + coll + "/" + id;
@@ -116,7 +117,7 @@
     }
 
     .imgcontainer {
-        margin: 2rem;
+        margin: 1rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -209,10 +210,10 @@
     <!-- You can use styles and CSS on this iframe element where the video player will appear -->
    
 
-    <script src="https://embed.cloudflarestream.com/embed/sdk.latest.js"></script>
+    <!-- <script src="https://embed.cloudflarestream.com/embed/sdk.latest.js"></script> -->
 
     <!-- Your JavaScript code below-->
-    <script>
+    <!-- <script>
         const player = Stream(document.getElementById('stream-player'));
         player.addEventListener('play', () => {
             console.log('playing!');
@@ -222,6 +223,6 @@
             player.muted = true;
             player.play();
         });
-    </script>
+    </script> -->
 
 </div>
