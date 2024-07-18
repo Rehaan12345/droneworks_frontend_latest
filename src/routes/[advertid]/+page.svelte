@@ -183,6 +183,9 @@
             
             </div>
 
+            <Contact></Contact>
+
+
             <div class="imgcontainer">
                 <Gallery items={images} class="gap-4 grid-cols-2 md:grid-cols-3" />
                 <!-- <div class="max-w-4xl space-y-4">
@@ -194,7 +197,6 @@
                   </div> -->
             </div>
 
-            <Contact></Contact>
 
         </section>
 
