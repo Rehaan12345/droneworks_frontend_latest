@@ -14,7 +14,7 @@
     const devUrl = import.meta.env.VITE_DEV_URL;
     const currUrl = prodUrl;
   
-    // injectSpeedInsights();
+    injectSpeedInsights();
   
   </script>
 
