@@ -13,6 +13,16 @@
     const advertId = $page.params.advertid;
     console.log(advertId);
 
+    let useAdvertId = advertId;
+
+    if (advertId.indexOf("_") > -1) {
+        const start = advertId.substring(0, advertId.indexOf("_"));
+        const end = advertId.substring(advertId.indexOf("_") + 1);
+        const newAdvertId = start + " " + end;
+        console.log(newAdvertId);
+        useAdvertId = newAdvertId;
+    }
+
     // Urls for development and production servers:
     const prodUrl = import.meta.env.VITE_PROD_URL;
     const devUrl = import.meta.env.VITE_DEV_URL;
@@ -127,13 +137,17 @@
         color: black;
     }
 
-    .logowrapper {
+    /* .logowrapper {
         border-radius: 15px;
+    } */
+
+    .adverttitle {
+        margin: 3rem;
     }
 </style>
 
 <svelte:head>
-    <title>DroneWorks | {advertId}</title>
+    <title>DroneWorks | {useAdvertId}</title>
 </svelte:head>
 
 <div class="moreinfowrapper bg-gray-200">
@@ -142,15 +156,20 @@
 
     {#if ready}
 
+        <h1 class="adverttitle max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-900">DroneWorks | {useAdvertId}</h1>
+        <div class="imgcontainer">
+            <Gallery items={images} class="gap-4 grid-cols-2 md:grid-cols-3" />
+        </div>
+
         <section class="bg-gray-200">
             <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                 <div class="mr-auto place-self-center lg:col-span-7">
-                    <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-900">{advert.title}</h1>
+                    
                     <p class="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-gray-900">{advert.info}</p>
                 </div>
-                <div class="hidden logowrapper lg:mt-1 lg:col-span-5 lg:flex">
+                <!-- <div class="hidden logowrapper lg:mt-1 lg:col-span-5 lg:flex">
                     <img src={logo} alt="mockup">
-                </div>   
+                </div>    -->
                 
                 {#each payment as item}
 
@@ -184,19 +203,6 @@
             </div>
 
             <Contact></Contact>
-
-
-            <div class="imgcontainer">
-                <Gallery items={images} class="gap-4 grid-cols-2 md:grid-cols-3" />
-                <!-- <div class="max-w-4xl space-y-4">
-                    <Carousel {images} {forward} let:Indicators let:Controls bind:index>
-                      <Controls />
-                      <Indicators />
-                    </Carousel>
-                    <Thumbnails {images} {forward} bind:index />
-                  </div> -->
-            </div>
-
 
         </section>
 
