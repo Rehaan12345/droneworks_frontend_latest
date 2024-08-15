@@ -167,9 +167,9 @@
                     
                     <p class="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-gray-900">{advert.info}</p>
                 </div>
-                <!-- <div class="hidden logowrapper lg:mt-1 lg:col-span-5 lg:flex">
-                    <img src={logo} alt="mockup">
-                </div>    -->
+                <div class="hidden logowrapper lg:mt-1 lg:col-span-5 lg:flex">
+                    <enhanced:img src="../../lib/images/dronenobackbetter.png" alt="some alt text" />
+                </div>   
                 
                 {#each payment as item}
 

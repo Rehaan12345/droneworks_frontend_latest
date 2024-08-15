@@ -25,6 +25,7 @@
   </style>
 
   <svelte:head>
+    <title>BosDroneWorks</title>
     <meta name="description" content="DroneWorks is the best and fastest growing drone-media company within the greater Boston area. DroneWorks is committed to ensuring the best customer experience and highest quality aerial media for you and your clients, making your aerial dreams come true.">
     <meta property="og:title" content="DroneWorks - Making your aerial dreams come true.">
   </svelte:head>
