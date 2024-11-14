@@ -101,13 +101,13 @@
   
     onMount(async () => {
       testAPI(); 
-      images = await getBackendCache("MainPhoto");
+      // images = await getBackendCache("MainPhoto");
   
       ready = true;
   
       getData("mainphoto");
   
-      // getImages();
+      getImages();
   
     });
   
