@@ -77,10 +77,20 @@
         console.log("Couldn't retrieve images! " + error);
       }
     }
-  
-  
-    onMount(() => { testAPI(); });
-  
+
+    async function getBackendCache(collection) {
+      const url = currUrl + "cache/" + collection;
+      const res = await fetch(url);
+      if (!res.ok) {
+        console.log('Failure to get cached collection');
+        throw new Error('Failure to get cached collection');
+      }
+      const resData = await res.json();
+      const result = JSON.parse(resData);
+      
+      return result;
+    }
+
     let index = 0;
     let forward = true; // sync animation direction between Thumbnails and Carousel
   
@@ -89,16 +99,15 @@
     // Intersection Obvserver functionality: (source: https://www.youtube.com/watch?v=T33NN_pPeNI)
     let ready = false;
   
-    onMount(() => {
-      // console.log(db);
-  
-      // getImage();
+    onMount(async () => {
+      testAPI(); 
+      images = await getBackendCache("MainPhoto");
   
       ready = true;
   
       getData("mainphoto");
   
-      getImages();
+      // getImages();
   
     });
   
