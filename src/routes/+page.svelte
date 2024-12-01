@@ -16,7 +16,7 @@
     // Urls for development and production servers:
     const prodUrl = import.meta.env.VITE_PROD_URL;
     const devUrl = import.meta.env.VITE_DEV_URL;
-    const currUrl = prodUrl;
+    const currUrl = prodUrl; 
   
     let msg;
     let password;
