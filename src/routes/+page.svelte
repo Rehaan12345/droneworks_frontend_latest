@@ -16,7 +16,7 @@
     // Urls for development and production servers:
     const prodUrl = import.meta.env.VITE_PROD_URL;
     const devUrl = import.meta.env.VITE_DEV_URL;
-    const currUrl = prodUrl;
+    const currUrl = devUrl;
   
     let msg;
     let password;
@@ -42,7 +42,8 @@
     async function getData(id) {
         try {
             let coll = "MainPhoto";
-            const url = currUrl + "read/" + coll + "/" + id;
+            // const url = currUrl + "read/" + coll + "/" + id;
+            const url = currUrl + "mainphotocache/";
             console.log(url);
             const res = await fetch(url);
             if (!res.ok) {
@@ -101,13 +102,13 @@
   
     onMount(async () => {
       testAPI(); 
-      // images = await getBackendCache("MainPhoto");
+      images = await getBackendCache("MainPhoto");
   
       ready = true;
   
       getData("mainphoto");
   
-      getImages();
+      // getImages();
   
     });
   
