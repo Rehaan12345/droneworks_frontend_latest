@@ -42,8 +42,8 @@
     async function getData(id) {
         try {
             let coll = "MainPhoto";
-            // const url = currUrl + "read/" + coll + "/" + id;
-            const url = currUrl + "mainphotocache/";
+            const url = currUrl + "read/" + coll + "/" + id;
+            // const url = currUrl + "mainphotocache/";
             console.log(url);
             const res = await fetch(url);
             if (!res.ok) {
@@ -102,13 +102,13 @@
   
     onMount(async () => {
       testAPI(); 
-      images = await getBackendCache("MainPhoto");
+      // images = await getBackendCache("MainPhoto");
   
       ready = true;
   
       getData("mainphoto");
   
-      // getImages();
+      getImages();
   
     });
   
