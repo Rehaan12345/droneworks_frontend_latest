@@ -4,7 +4,7 @@
     // Urls for development and production servers:
     const prodUrl = import.meta.env.VITE_PROD_URL;
     const devUrl = import.meta.env.VITE_DEV_URL;
-    const currUrl = prodUrl;
+    const currUrl = devUrl;
 
     // Urls for development and production databases:
     const prodColl = import.meta.env.VITE_PROD_COLL;
@@ -54,7 +54,7 @@
         /* border: 1px solid white; */
         box-shadow: 5px 5px 10px rgb(67, 111, 255);
         cursor: pointer;
-        border-radius: 15px;
+        border-radius: 5px;
         margin: 1rem;
         padding: 1rem;
     }
@@ -62,7 +62,6 @@
     .advert:hover {
         /* transform: scale(1.01); */
         box-shadow: 5px 5px 15px rgb(92, 152, 255);
-        border-radius: 15px;
         transform: scale(1.01);
         /* box-sizing: border-box; */
     }

@@ -12,6 +12,7 @@
     import Contact from "./Contact.svelte";
     import Articles from "./Articles.svelte";
     import Adverts from './Adverts.svelte';
+    import ImageTile from "./ImageTile.svelte";
   
     // Urls for development and production servers:
     const prodUrl = import.meta.env.VITE_PROD_URL;
@@ -163,6 +164,8 @@
         </div>
       </div>
     </div>
+
+    <ImageTile></ImageTile>
   
     <div class="advertwrapper" id="ourwork">
       <Adverts></Adverts>
