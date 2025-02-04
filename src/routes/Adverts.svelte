@@ -9,7 +9,7 @@
     // Urls for development and production databases:
     const prodColl = import.meta.env.VITE_PROD_COLL;
     const devColl = import.meta.env.VITE_DEV_COLL;
-    const currColl = devColl;
+    const currColl = prodColl;
 
     let adverts = []
 
