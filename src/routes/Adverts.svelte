@@ -4,12 +4,12 @@
     // Urls for development and production servers:
     const prodUrl = import.meta.env.VITE_PROD_URL;
     const devUrl = import.meta.env.VITE_DEV_URL;
-    const currUrl = devUrl;
+    const currUrl = prodUrl;
 
     // Urls for development and production databases:
     const prodColl = import.meta.env.VITE_PROD_COLL;
     const devColl = import.meta.env.VITE_DEV_COLL;
-    const currColl = prodColl;
+    const currColl = devColl;
 
     let adverts = []
 
