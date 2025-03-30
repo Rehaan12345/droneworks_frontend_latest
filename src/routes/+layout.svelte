@@ -15,6 +15,19 @@
     const currUrl = prodUrl;
   
     injectSpeedInsights();
+
+    import { onMount, afterUpdate } from 'svelte';
+    import { browser } from '$app/environment';
+    
+    // export let data;
+    
+    // Progressive image loading
+    let loadedChunks = 1; // First chunk is critical images
+    const totalChunks = 4; // Divide your images into logical chunks
+    
+    // Use a store to manage loaded state if needed across components
+    import { writable } from 'svelte/store';
+    export const imagesLoaded = writable(false);
   
   </script>
 

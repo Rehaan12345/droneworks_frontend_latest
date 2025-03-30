@@ -166,6 +166,8 @@
     </div>
 
     <ImageTile></ImageTile>
+
+    <!-- <UseImage></UseImage> -->
   
     <div class="advertwrapper" id="ourwork">
       <Adverts></Adverts>

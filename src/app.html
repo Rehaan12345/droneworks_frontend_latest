@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -9,4 +9,23 @@
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- Preconnect to Firebase Storage to speed up initial connection -->
+    <link rel="preconnect" href="https://firebasestorage.googleapis.com" crossorigin />
+    
+    <!-- DNS prefetch as fallback -->
+    <link rel="dns-prefetch" href="https://firebasestorage.googleapis.com" />
+    
+    %sveltekit.head%
+  </head>
+  <body>
+    <div id="svelte">%sveltekit.body%</div>
+  </body>
 </html>

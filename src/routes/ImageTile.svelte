@@ -41,38 +41,20 @@
 
     const images = [
 
-        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/DJI_0093.JPG?alt=media&token=14933aaf-9693-4ace-88d5-744c879a4689", alt: 7},
-
-        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/abstract%2FIMG_8992%20copy.jpg?alt=media&token=7eb57e81-f3c8-4d78-859f-c39a6a11e367", alt: 5},
-
-        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/abstract%2FIMG_9812.JPG?alt=media&token=3205764a-2737-49f2-8a39-9253166e9687", alt: 6},
-
-        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/DJI_0094.JPG?alt=media&token=9578bebe-87fb-4162-866e-33d907199a47", alt: 8},
-
-        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/cityscape%2FIMG_9805.JPG?alt=media&token=39591915-1223-4494-a148-37cf8a8c90bc", alt: 11},
-
-        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/architecture%2FDJI_0411.jpg?alt=media&token=619e004d-727f-4ffe-91ce-9d771039ad7d", alt: 12},
-
-        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/cityscape%2FDJI_0090.JPG?alt=media&token=12c7ef0d-fba3-4ebd-b7e7-bd2e6d351a45", alt: 9},
-
-        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/architecture%2FDJI_0437.jpg?alt=media&token=cfedb084-1c99-441c-aa38-09e291ea4c0c", alt: 13},
-
-        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/architecture%2FDJI_0440.jpg?alt=media&token=e3448a32-f407-4f08-8cc8-366c499f25a9", alt: 14},
-
-        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/cityscape%2FDJI_0093.JPG?alt=media&token=c3ced952-9d96-4c0c-8519-42aeebbdbc57", alt: 10},
-
-        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/architecture%2FDJI_0445.jpg?alt=media&token=062a31f6-e4e0-4dbb-b08a-df1ee2b3cb89", alt: 15},
-
-        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/architecture%2FDJI_0460.jpg?alt=media&token=bea8bf37-8a98-43bc-9806-393fc7082179", alt: 16},
-
-        {src: "https://storage.googleapis.com/droneworks-14880.appspot.com/abstract/DJI_0774.JPG?Expires=3600&GoogleAccessId=firebase-adminsdk-x91e9%40droneworks-14880.iam.gserviceaccount.comSignature=JQfIaBWA4cajR8M3gOIGMTpYc1bRacPeq1p88g%2FOYWawiRIxKvAEBKxIDA%2BCvdHvqXGs%2B9vInvf7EG%2Fji8as04zrxJl1B0%2FALkAJndKzp%2FM%2BhCueMTNOJzWb4xNPickLDEIGYxu4zcnehDtyUHfs%2FlbzofeVQddywoXcSI%2FiP%2BNCNYiX9PuHAsrWgDHxHtlysX%2BuaroubpRgAn4LjL0P2oB2G7%2Fwj67SJuF7tdKb08wXbP3zdWnb7TnuQb5AVaSza90%2B08%2Brg5uSjwDiitb4TsOtI%2F1W0oMk5hNGC%2FQW3dfU4kLFrQYrBKCm2CUTPv5WBuotCpsO%2BZrMv2W7RIvg%2Bw%3D%3D", alt: "0", id: 0},
-
-        {src:"https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/abstract%2FIMG_1307.JPG?alt=media&token=36824a0f-c8e3-4997-9ea2-f2526355bf82", alt: 2},
-
-        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/abstract%2FIMG_1319.jpg?alt=media&token=002a335d-72d6-4586-bbf8-25c4197c7e43", alt: 3},
-
-        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/abstract%2FIMG_7439.JPG?alt=media&token=2eaebf87-6c3c-4792-9b6d-f79eec704f71", alt: 4},
-
+        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/webp-imgs%2Fcomp1.webp?alt=media&token=797bb14c-1eba-4b0f-8303-7a51330f0ba6", alt: 40},
+        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/webp-imgs%2Fcomp10.webp?alt=media&token=70830192-f362-4395-822d-58d9ed02e8ab", alt: 41},
+        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/webp-imgs%2Fcomp11.webp?alt=media&token=1eb420f4-9c8d-46f5-9a9d-8f15de83ea36", alt: 42},
+        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/webp-imgs%2Fcomp12.webp?alt=media&token=2b2c7cef-ccbd-4929-952d-9ed2a50fa39b", alt: 43},
+        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/webp-imgs%2Fcomp13.webp?alt=media&token=122161e5-fc53-4483-81f1-da62686bba34", alt: 44},
+        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/webp-imgs%2Fcomp14.webp?alt=media&token=d4cdd716-9536-44c7-af62-811b65d53201", alt: 45},
+        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/webp-imgs%2Fcomp2.webp?alt=media&token=060e5469-1b94-43a4-be66-76ca4b0a6446", alt: 46},
+        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/webp-imgs%2Fcomp3.webp?alt=media&token=794fb258-8079-4b0b-80f0-a166b9449116", alt: 47},
+        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/webp-imgs%2Fcomp4.webp?alt=media&token=f38f0289-aae8-4308-9cc0-33c7d3da2304", alt: 48},
+        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/webp-imgs%2Fcomp5.webp?alt=media&token=41526eec-c633-4a89-9cd8-8a6f242fec5e", alt: 49},
+        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/webp-imgs%2Fcomp6.webp?alt=media&token=f86d734c-897a-498c-a8f5-eb2d8eff4bf4", alt: 410},
+        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/webp-imgs%2Fcomp7.webp?alt=media&token=b09a8cee-1e22-4179-8b17-b6e5f5b87b1d", alt: 420},
+        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/webp-imgs%2Fcomp8.webp?alt=media&token=b55aca0a-05e9-4614-96dc-faa9ac547596", alt: 430},
+        {src: "https://firebasestorage.googleapis.com/v0/b/droneworks-14880.appspot.com/o/webp-imgs%2Fcomp9.webp?alt=media&token=d7f2146a-854b-4af8-a017-31d6d378926d", alt: 440}
         
     ]
 
