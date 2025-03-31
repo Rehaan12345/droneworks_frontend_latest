@@ -72,10 +72,10 @@
     <div class="advertcontainer py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <!-- <center><h1 class="text-gray-900">What we do</h1></center> -->
         <div class="max-w-screen-md mb-8 lg:mb-16">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Making your aerial dreams come true!</h2>
-            <p class="sm:text-xl text-gray-800">DroneWorks emphasizes your needs, ensuring that whatever project we're working on is finished only when you say it is.</p>
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Elevating Your Media</h2>
+            <p class="sm:text-xl text-gray-800">Volo Studios emphasizes your needs, ensuring that whatever project we're working on is finished only when you say it is.</p>
             <p class="sm:text-xl text-gray-800">
-                Check out previous examples of our work below!
+                Check out previous examples of our work below by clicking on each box to learn more and see examples.
             </p>
         </div>
         <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-2 md:gap-12 md:space-y-0">

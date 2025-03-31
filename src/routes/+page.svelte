@@ -142,7 +142,7 @@
   </style>
 
   <svelte:head>
-    <title>DroneWorks</title>
+    <title>Volo Studios</title>
   </svelte:head>
   
   <div class="show"></div>
@@ -156,7 +156,7 @@
       <div class="hero-content text-center text-neutral-content">
         <div class="max-w-md">
           <Heading class="text-white">
-            DroneWorks
+            Volo Studios
           </Heading>
           <br>
           <Button href="#ourwork" class="mainbuttons bg-blue-10000 hover:bg-blue-6000">See our work</Button>
